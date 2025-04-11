@@ -1,0 +1,20 @@
+{
+   "base_url": "https://m.twitch.tv/",
+    "browser": "Chrome",
+    "implicit_wait": 10,
+    "devices": {
+      "iPhone XR": {
+        "width": 414,
+        "height": 896
+      },
+      "Pixel 7": {
+        "width": 412,
+        "height": 915
+      },
+      "Galaxy S20": {
+        "width": 412,
+        "height": 915
+      }
+    }
+  }
+  
