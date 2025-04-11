@@ -24,9 +24,8 @@ This project is a robust and scalable mobile browser automation test using **Sel
 | `tests/`          | Test cases using `pytest` |
 | `pages/`          | Page Object Models (POM) for UI elements |
 | `utils/`          | Helpers for driver setup, screenshots, and pop-up handling |
-| `screenshots/`    | Output folder for screenshots |
-| `conftest.py`     | Pytest fixture for browser setup |
-| `requirements.txt`| Dependencies |
+| `demo`            | Folder for demo gif |
+| `Pipfile`         | Dependencies |
 | `pytest.ini`      | Pytest config |
 
 ## 🚀 Running the Test
@@ -38,12 +37,12 @@ pipenv install
 ```
 ### 2. Run the test
 ```
-pytest tests/test_twitch_search.py
+pipenv run pytest tests/test_search.py
 ```
 
 ## 💡 Notes
 
-- Uses Pixel 5 emulation for mobile responsiveness.
+- Uses Pixel 7 emulation for mobile responsiveness.
 - Handles Twitch modals/popups.
 - Screenshot is saved in /screenshots with a timestamp.
 
