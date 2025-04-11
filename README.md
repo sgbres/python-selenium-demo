@@ -27,6 +27,7 @@ This project is a robust and scalable mobile browser automation test using **Sel
 | `demo`            | Folder for demo gif |
 | `Pipfile`         | Dependencies |
 | `pytest.ini`      | Pytest config |
+| `config.json`     | Project tests config |
 
 ## 🚀 Running the Test
 
